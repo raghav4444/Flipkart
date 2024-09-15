@@ -1,0 +1,206 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.00);
+
+}
+html{
+  
+  font-size: 62.5%;
+  
+}
+body{
+  font-family: rubik;
+  font-size: 67.5%;
+}
+/* Navigation */
+
+.navigation-bar{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+ 
+
+}
+a{
+  display: inline-block;
+  
+}
+
+.btn{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  color: black;
+  padding: 1rem 2rem;
+  gap: 0.8rem;
+  font-size: 12px;
+  
+
+  
+}
+.arrow-key{
+  height: 1rem;
+  width: 1rem;
+}
+.login:hover .arrow-key{
+transform: rotate(180deg);
+transition: transform .3s ease-in-out;
+}
+.login .arrow-key{
+  transform: rotate(0);
+  transition: transform .3s ease-in-out;
+  }
+
+
+.flipkart-logo{
+display: flex;
+  padding: none;
+}
+.flipkart-logo-img{
+  display: inline-block;
+  width: 18rem;
+  height: 5rem;
+  padding-bottom: 1.7rem;
+
+}
+.login{
+  
+  border-radius: 5px;
+  padding: 15px 14px;
+
+  
+  
+}
+.search{
+  height: 3rem;
+  width: 180rem;
+  border-radius: 4px;
+  display: flex;
+  gap: 2rem;
+  
+}
+.login:link,
+.login:visited{
+  background-color: #fff;
+  
+}
+.login:hover,
+.login:active{
+  background-color: #fff;
+  background-color: #d5a919;
+  -webkit-filter: invert(100%);
+}
+
+
+.seller{
+  text-align: center;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  height: 3.2rem;
+  
+}
+/* Body Section */
+
+.body-section{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 1599.97px;
+  margin: 1rem auto;
+}
+
+/* Categories */
+.section-category{
+  display: flex;
+  margin: 0.8rem 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+.category{
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.category-img{
+  margin: 1.2rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+.category-txt{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+}
+
+.category-icon{
+  align-self: center;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.category:hover .ionicon-fill-none{
+  transform: rotate(180deg);
+transition: transform .3s;
+}
+
+.category .ionicon-fill-none{
+  transform: rotate(0);
+  transition: transform .3s;
+}
+/* offers */
+.hero-section{
+  /* background-size:cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:1400px;
+  height: 150px;
+}
+.offer{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 1250px;
+  height: 150px;
+  margin-top: 50px;
+}
+.btn-icon{
+  cursor: pointer;
+  position: absolute;
+  
+}
+.btn-icon:hover,.btn-icon:active{
+  cursor: pointer;
+  position: absolute;
+  
+}
+.btn-circle{
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+justify-content: center;
+align-items: center;
+border-style: none; 
+}
+ 
+.circle-2{
+  stroke: white;
+
+}
+ 
+}
